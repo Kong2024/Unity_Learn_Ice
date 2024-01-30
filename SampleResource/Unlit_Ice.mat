@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_Ice
+  m_Shader: {fileID: 4800000, guid: e951a170dc9f37c40b061738955dd325, type: 3}
+  m_ValidKeywords:
+  - _USEDETAILNORMAL
+  - _USEGLASSNORMAL
+  m_InvalidKeywords:
+  - _USEFOGEXP2_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CracksSDFTexture:
+        m_Texture: {fileID: 2800000, guid: c4c4c99dd5a7f29488451579db3a6d42, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 2800000, guid: 61b63771992458247a47521abbd0f47c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DustTexture:
+        m_Texture: {fileID: 2800000, guid: efac6029fc8b30d479fe6f6f562a8d56, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _GlassNormal:
+        m_Texture: {fileID: 2800000, guid: 021fa0ff9c19edf479953b5f507a1b45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlassTexture:
+        m_Texture: {fileID: 2800000, guid: a9e1f2029b44d284fa1e960be2b2fbf9, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTexture:
+        m_Texture: {fileID: 8900000, guid: 74b313e17ab2e6244ab61a9f921de1af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CracksDepthIterations: 5
+    - _CracksDepthScale: 2.01
+    - _CracksDepthStepSize: 0.1
+    - _CracksDistortion: 0.02
+    - _CracksHeight: 0.34
+    - _CracksWidth: 0.15
+    - _DustDepthShift: 1
+    - _DustLayerBetween: 0.5
+    - _FogBase: 0.18
+    - _FogDensity: 0.73
+    - _FresnelPower: 5
+    - _GlassDetailUVScale: 6
+    - _GlassNormalScale: 0.3
+    - _Iro: 1.43
+    - _ShapeSphereRadius: 0.95
+    - _UseAberration: 0
+    - _UseDetailNormal: 1
+    - _UseFogExp2: 1
+    - _UseGlassNormal: 1
+    m_Colors:
+    - _CracksColor: {r: 0.7176471, g: 0.84705883, b: 0.9921569, a: 1}
+    - _DustColor: {r: 0.30980393, g: 0.37647063, b: 0.4431373, a: 1}
+    - _DustTextureUVAnim: {r: 0, g: 0.2, b: 0, a: 0}
+    - _FogColor: {r: 0.21960661, g: 0.36879975, b: 0.4433962, a: 0}
+    - _GlassColor: {r: 0.69803923, g: 0.8313726, b: 0.95294124, a: 1}
+    - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RefractionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
